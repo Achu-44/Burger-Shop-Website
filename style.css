@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.navbar{
+    width: 100%;
+    height:100px;
+    background-color: rgba(249, 3, 3, 0.997);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px
+}
+.logo img{
+    /* display: flex;
+    align-items:center; */
+    width:60px;
+    height:60px; 
+}
+
+.navlink ul{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    gap: 20px;
+}
+.navlink ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:20px
+}
